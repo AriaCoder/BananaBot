@@ -1,0 +1,18 @@
+{
+	"extension": {
+		"version": "0.4.2",
+		"json": 1
+	},
+	"project": {
+		"name": "BananaBot",
+		"description": "Bananananana",
+		"creationDate": "7/11/2023, 9:55:29 AM",
+		"platform": "IQ2",
+		"language": "python",
+		"slot": 4,
+		"sdkVersion": "IQ2_1_0_0_17",
+		"python": {
+			"main": "src/main.py"
+		}
+	}
+}
