@@ -9,7 +9,8 @@
 
 # Library imports
 from vex import *
-
+import random
+randy = random.randint(5, 10)
 # Brain should be defined by default
 brain = Brain()
 leftMotor = Motor(Ports.PORT1)
@@ -25,3 +26,4 @@ while True:
     if leftMotor.velocity() > 0:
         print(leftMotor.velocity())
     sleep(2, SECONDS)
+    print (randy + 2)
